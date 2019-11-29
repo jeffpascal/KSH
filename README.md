@@ -32,11 +32,18 @@ In shellscripts, a variable can contain a collection of letters and/or numbers [
 You set a variable by using
 
 ```variablename="some string here"```
+
   OR
+
 ```variablename=1234```
+
 You access what is IN a variable, by putting a dollar-sign in front of it.
+
 ```echo $variablename```
+
   OR
+
 ```echo ${variablename}```
+
 If you have JUST a number in a variable, you can do math operations on it.
 
